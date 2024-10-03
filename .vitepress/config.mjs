@@ -92,14 +92,14 @@ const customElements = [
 ];
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  
-  head: [["link", { rel: "icon", href: "/public/logo.png" }]],
+  base: "/personal-blog/",
+  head: [["link", { rel: "icon", href: "/personal-blog/public/logo.png" }]],
   title: "Louis的笔记本",
   description: "A VitePress Site",
   themeConfig: {
     outlineTitle:"目录",
     outline:[2,6],
-    logo: '/public/logo.png',
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '科研', items:[
@@ -160,8 +160,7 @@ export default defineConfig({
         isCustomElement: (tag) => customElements.includes(tag),
       },
     },
-  },
-  base: "/personal-blog/"
+  }
 })
 
 
