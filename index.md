@@ -7,7 +7,7 @@ hero:
   text: "记录当下的每一刻"
   tagline: Carpe diem, mea amicus — seize the day, my friend
   image:
-    src: \personal-blog\public\background.png
+    src: https://pic.imgdb.cn/item/66fe1a660a206445e39717f1.png
     alt: 背景图
   actions:
     - theme: brand

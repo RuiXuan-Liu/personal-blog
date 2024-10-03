@@ -93,13 +93,13 @@ const customElements = [
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/personal-blog/",
-  head: [["link", { rel: "icon", href: "/personal-blog/public/logo.png" }]],
+  head: [["link", { rel: "icon", href: "https://pic.imgdb.cn/item/66fe1b150a206445e3979ffa.png" }]],
   title: "Louis的笔记本",
   description: "A VitePress Site",
   themeConfig: {
     outlineTitle:"目录",
     outline:[2,6],
-    logo: '/logo.png',
+    logo: 'https://pic.imgdb.cn/item/66fe1b150a206445e3979ffa.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '科研', items:[
