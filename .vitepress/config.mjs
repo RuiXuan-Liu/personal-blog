@@ -101,15 +101,15 @@ export default defineConfig({
     logo: 'https://pic.imgdb.cn/item/66fe1b150a206445e3979ffa.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-	
-      { text: '科研', items:[
+	{text:'导航',link:'/'},
+    { text: '科研', items:[
         {text:'机器学习',link: '/机器学习.md'},
         {text:'动手学深度学习',link: '/动手学深度学习.md'},
         {text:'动手学强化学习',link: '/动手学强化学习.md'},
         {text:'图神经网络',link: '/图神经网络.md'},]},
-      { text: '工作', items:[
+    { text: '工作', items:[
           {text:'算法',link: '/算法.md'}]},
-      {text:'随笔',link:'/'}
+    {text:'论文阅读',link:'/Harvesting Efficient On-Demand Order Pooling from Skilled Couriers Enhancing Graph Representation Learning for Refining Real-time Many-to-One Assignments.md'}
     ],
     // sidebar: [
     //   {
