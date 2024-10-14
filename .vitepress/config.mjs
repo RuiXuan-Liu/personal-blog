@@ -108,9 +108,11 @@ export default defineConfig({
         {text:'动手学强化学习',link: '/动手学强化学习.md'},
         {text:'图神经网络',link: '/图神经网络.md'},]},
     { text: '工作', items:[
-          {text:'算法',link: '/算法.md'}]},
-    {text:'论文阅读',link:'/Harvesting Efficient On-Demand Order Pooling from Skilled Couriers Enhancing Graph Representation Learning for Refining Real-time Many-to-One Assignments.md'}
-    ],
+        {text:'算法',link: '/算法.md'}]},
+	{ text: '论文阅读', items:[
+		{text:'KDD2024:Harvesting Efficient',link: '/Harvesting Efficient On-Demand Order Pooling from Skilled Couriers Enhancing Graph Representation Learning for Refining Real-time Many-to-One Assignments.md'},
+		{text:'KDD2019:Representation Learning',limk:'/Representation Learning for Attributed Multiplex Heterogeneous Network.md'},]}],
+		
     // sidebar: [
     //   {
     //     text: 'Examples',
