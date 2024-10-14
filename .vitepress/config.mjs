@@ -111,8 +111,7 @@ export default defineConfig({
         {text:'算法',link: '/算法.md'}]},
 	{ text: '论文阅读', items:[
 		{text:'KDD2024:Harvesting Efficient',link: '/Harvesting Efficient On-Demand Order Pooling from Skilled Couriers Enhancing Graph Representation Learning for Refining Real-time Many-to-One Assignments.md'},
-		{text:'KDD2019:Representation Learning',limk:'/Representation Learning for Attributed Multiplex Heterogeneous Network.md'},]}],
-		
+		{text:'KDD2019:Representation Learning',limk:'/Representation Learning for Attributed Multiplex Heterogeneous Network.md'},]},],
     // sidebar: [
     //   {
     //     text: 'Examples',
