@@ -113,8 +113,7 @@ export default defineConfig({
 		{text:'KDD2024:Harvesting Efficient',link:'/KDD2024.md'},
 		{text:'KDD2019:Representation Learning',link:'/KDD2019.md'},
 		{text:'KDD2021:A Deep Learning Method',link:'/KDD2021.md'},
-		{text:'KDD2022:Applying Deep Learning',link:'/KDD2022.md'},
-	]}],
+		{text:'KDD2022:Applying Deep Learning',link:'/KDD2022.md'},]}],
     // sidebar: [
     //   {
     //     text: 'Examples',
